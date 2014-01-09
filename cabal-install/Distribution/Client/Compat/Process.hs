@@ -1,4 +1,3 @@
-
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Distribution.Client.Compat.Process
@@ -17,7 +16,7 @@ module Distribution.Client.Compat.Process (
   readProcessWithExitCode
 ) where
 
-import           Control.Exception (catch, throw)
+import           Control.Exception (throw)
 import           System.Exit       (ExitCode (ExitFailure))
 import           System.IO.Error   (isDoesNotExistError)
 import qualified System.Process    as P
